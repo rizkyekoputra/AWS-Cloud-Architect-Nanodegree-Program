@@ -1,0 +1,19 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),route53,Amazon Route 53,0,0.5,6.00,USD,Hosted Zones (1)
+My Estimate,US East (N. Virginia),s3,S3 Standard,0,454.98,5459.76,USD,S3 Standard storage (15 TB per month)
+My Estimate,US East (N. Virginia),app lb,Application Load Balancer,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),vpc1,Amazon Virtual Private Cloud (VPC),0,39.6,475.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,1685.86,20230.32,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (t2.2xlarge)"
+My Estimate,US East (N. Virginia),Web servers,Amazon EC2,0,1685.86,20230.32,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (t2.2xlarge)"
+My Estimate,US East (Ohio),db-region2,Amazon Aurora PostgreSQL-Compatible DB,0,4448.4,53380.80,USD,"Storage amount (100 GB), Quantity (2), Instance type (db.r5.4xlarge), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),db-region1,Amazon Aurora PostgreSQL-Compatible DB,0,4448.4,53380.80,USD,"Storage amount (100 GB), Quantity (2), Instance type (db.r5.4xlarge), Pricing strategy (OnDemand)"
+My Estimate,US East (Ohio),Web servers2,Amazon EC2,0,1685.86,20230.32,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (t2.2xlarge)"
+My Estimate,US East (Ohio),Application Servers2,Amazon EC2,0,1685.86,20230.32,USD,"Operating system (Linux), Quantity (6), Pricing strategy (On-Demand Instances), Storage amount (100 GB), Instance type (t2.2xlarge)"
+My Estimate,US East (Ohio),app lb2,Application Load Balancer,0,1200.85,14410.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (Ohio),vpc2,Amazon Virtual Private Cloud (VPC),0,39.6,475.20,USD,Number of NAT Gateways (1)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+"* I double the DB and EC2 instance on anohter region for redundancy"
